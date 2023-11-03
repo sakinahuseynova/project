@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,500;1,600&family=Rubik+Puddles&display=swap');
+
+
+
+.my-navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+
+.social img {
+    width: 6%;
+    margin-right: 2%;
+}
+
+
+.montana {
+    margin-inline: 20%;
+}
+
+
+.book-room {
+    margin-left: 8%;
+}
+
+
+
+
+
+#carouselExampleCaptions {
+    z-index: 1;
+}
+
+
+.carousel-caption {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 40%;
+}
+
+
+.carousel-caption h5 {
+    font-size: 84px;
+}
+
+
+
+
+
+.laxaries,
+.about,
+.get-contact {
+    position: relative;
+    margin-bottom: 15%;
+    width: 100%;
+}
+
+
+.laxaries h1,
+.about h1,
+.get-contact h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.about img,
+.get-contact img,
+.laxaries img {
+    width: 100%;
+}
+
+
+.about h1 {
+    top: 50%;
+}
+
+
+
+
+
+
+.about-flex {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+    display: flex;
+    padding-inline: 10%;
+}
+
+
+.about-flex div {
+    margin-right: 7%;
+}
+
+
+.about-flex p {
+    color: gray;
+}
+
+
+
+
+
+.contact {
+    margin-bottom: 15%;
+    width: 70%;
+    padding-inline: 7%;
+}
+
+
+.contact h1 {
+    margin-bottom: 5%;
+}
+
+
+.contact input {
+    width: 49%;
+    margin-block: 1%;
+    margin-right: 1%;
+    color: gray;
+}
+
+
+.contact textarea {
+    width: 100%;
+    height: 50%;
+}
+
+
+.contact div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contact button {
+    color: white;
+    background-color: royalblue;
+    border-color: royalblue;
+    margin-block: 3%;
+    width: 15%;
+}
+
+
+.contact button:hover {
+    color: royalblue;
+    background-color: white;
+    border-color: royalblue;
+
+}
+
+
+
+
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    display: flex;
+    padding-inline: 5%;
+    margin-bottom: 13%;
+    margin-top: 15%;
+}
+
+
+.writings1,
+.writings2 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 3%;
+
+}
+
+
+.writings1 {
+    margin-right: 10%;
+}
+
+
+.images-1,
+.images-2 {
+    display: flex;
+    width: 40%;
+}
+
+
+.images-2 {
+    margin-right: 15%;
+}
+
+
+.img1 {
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+
+
+.img2 {
+    margin-top: 10%;
+}
+
+
+.small {
+    color: blue;
+    margin-bottom: 3%;
+}
+
+
+.underline {
+    cursor: pointer;
+    color: dimgrey;
+}
+
+
+.underline:hover {
+    color: blue;
+}
+
+
+.header {
+    font-weight: 500;
+    /* line-height: 2; */
+}
+
+
+.suscipit {
+    font-weight: 200;
+    padding-bottom: 4%;
+}
+
+
+
+
+
+.second {
+    margin-bottom: 15%;
+}
+
+
+.threePictures {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+
+.centerBlue,
+.center {
+    text-align: center;
+}
+
+
+.centerBlue {
+    color: blue;
+    margin-bottom: 1%;
+}
+
+
+.center {
+    margin-bottom: 7%;
+}
+
+
+.threePictures img:hover {
+    transform: scale(0.9);
+    transition: transform 1s ease;
+    /* opacity: 1; */
+}
+
+
+.btn-outline-info {
+    width: 100%;
+}
+
+
+.threePictures h6 {
+    margin-top: 4%;
+}
+
+
+
+
+
+.rooms-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.rooms-img img {
+    width: 50%;
+}
+
+
+.rooms-img img:hover {
+    transform: scale(1.00);
+
+}
+
+
+.position {
+    position: relative;
+}
+
+
+.pay-1,
+.pay-2,
+.pay-3,
+.pay-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-inline: 4%;
+    color: rgb(252, 252, 252);
+    position: absolute;
+}
+
+
+.pay-1 {
+    bottom: 440px;
+}
+
+
+.pay-2 {
+    bottom: 440px;
+    left: 50%;
+}
+
+
+.pay-3 {
+    bottom: 50px;
+}
+
+
+.pay-4 {
+    bottom: 50px;
+    left: 50%;
+}
+
+
+.position a {
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+
+.position:hover .pay-1 a,
+.position:hover .pay-2 a,
+.position:hover .pay-3 a,
+.position:hover .pay-4 a {
+    display: block;
+}
+
+
+/* .superior:hover .pay-1 a,
+.deluxe:hover .pay-2 a,
+.signature:hover .pay-3 a,
+.couple:hover .pay-4 a {
+    display: block;
+} */
+
+
+
+
+
+.reservation {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-inline: 15%;
+    padding-block: 3%;
+    margin-block: 10%;
+}
+
+
+
+
+
+.fivePictures {
+    display: flex;
+    overflow: hidden;
+}
+
+
+.five {
+    width: 20%;
+}
+
+
+.five:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-block: 10%;
+}
+
+
+.footer h3 {
+    padding-bottom: 8%;
+}
+
+
+.footer-1 a {
+    color: gray;
+}
+
+
+.footer-1 a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+.footer-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-3 a:hover {
+    color: blue;
+}
+
+
+.footer-4 p {
+    padding-top: 5%;
+    color: gray;
+}
+
+
+
+
+
+.booking {
+    display: none;
+    width: 50%;
+    background-color: #fff;
+    padding: 3%;
+    z-index: 3;
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.booking h2 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+.form-group {
+    margin-bottom: 5%;
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+
+.form-button {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+
+    .montana,
+    .social {
+        display: none;
+    }
+
+
+    .laxaries h1,
+    .about h1,
+    .get-contact h1 {
+        top: 50%;
+        font-size: 28px;
+    }
+
+
+
+    .about-flex {
+        flex-direction: column;
+    }
+
+
+    .about-flex div {
+        margin-bottom: 10%;
+    }
+
+
+
+    .contact {
+        width: 100%;
+    }
+
+
+
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .writings1,
+    .writings2,
+    .images-1,
+    .images-2 {
+        width: 100%;
+    }
+
+    .img1,
+    .img2 {
+        width: 50%;
+    }
+
+
+
+    .threePictures {
+        flex-direction: column;
+    }
+
+
+    .threePictures img {
+        width: 100%;
+    }
+
+
+    .threePictures div {
+        margin-bottom: 5%;
+    }
+
+
+
+    .rooms-img {
+        flex-direction: column;
+    }
+
+
+    .rooms-img img {
+        width: 100%;
+    }
+
+
+    .rooms-img img:hover {
+        transform: scale(1.05);
+    }
+
+
+    .superior,
+    .deluxe,
+    .signature,
+    .couple {
+        margin-bottom: 5%;
+    }
+
+
+    .pay-1 {
+        bottom: 920px;
+    }
+
+
+    .pay-2 {
+        bottom: 625px;
+        left: auto;
+    }
+
+
+    .pay-3 {
+        bottom: 330px;
+    }
+
+
+    .pay-4 {
+        bottom: 30px;
+        left: auto;
+    }
+
+    .pay-1,
+    .pay-2,
+    .pay-3,
+    .pay-4 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .position a {
+        font-size: 13px;
+    }
+
+
+
+    .reservation {
+        flex-direction: column;
+        margin-inline: 5%;
+        padding-inline: 13%;
+    }
+
+
+
+    .fivePictures {
+        flex-direction: column;
+    }
+
+
+    .five {
+        width: 100%;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        padding-inline: 5%;
+    }
+
+
+    .footer h3 {
+        padding-bottom: 4%;
+    }
+
+
+    .footer-1,
+    .footer-2,
+    .footer-3 {
+        margin-bottom: 15%;
+    }
+
+
+
+
+}
